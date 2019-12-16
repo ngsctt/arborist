@@ -1,0 +1,19 @@
+{
+  "name": "@ngsctt/arborist",
+  "version": "0.1.0",
+  "description": "A Node.js file tree builder",
+  "main": "arborist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngsctt/arborist.git"
+  },
+  "author": "Nathan Scott <dev@ngscott.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngsctt/arborist/issues"
+  },
+  "homepage": "https://github.com/ngsctt/arborist#readme"
+}
