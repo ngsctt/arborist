@@ -3,6 +3,14 @@
   "version": "0.1.2",
   "description": "A Node.js file tree builder",
   "main": "arborist.js",
+  "files": [
+    "arborist.js",
+    "README.md",
+    "LICENCE"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
