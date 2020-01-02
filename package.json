@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/ngsctt/arborist/issues"
   },
-  "homepage": "https://github.com/ngsctt/arborist#readme"
+  "homepage": "https://github.com/ngsctt/arborist#readme",
+  "devDependencies": {
+    "@ngsctt/eslint-config": "^1.2.0",
+    "@ngsctt/prettier-config": "^0.1.0"
+  },
+  "prettier": "@ngsctt/prettier-config",
+  "eslintConfig": {
+    "extends": "@ngsctt",
+    "env": {
+      "node": true
+    }
+  }
 }
