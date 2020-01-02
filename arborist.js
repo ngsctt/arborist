@@ -3,6 +3,7 @@ const fs = require('fs').promises;
 
 const defaultOptions = {
   typeKey: 'type',
+  body: false,
   exclude: [],
   path: []
 };
@@ -31,6 +32,8 @@ async function step (p, o, m, l) {
   if (stats.isFile()) {
     info[o.typeKey] = 'file';
     info.extension = pathObj.ext;
+
+    if (o.body) info[o.body] = await fs.readFile(p); 
   }
 
   if (stats.isDirectory()) {
